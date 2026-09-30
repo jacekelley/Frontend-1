@@ -5,7 +5,7 @@
 // console.log('sync');
 
 // fetch.js
-const url = "https://pokeapi.co/api/v2/pokemon/mewtwo";
+const url = "https://pokeapi.co/api/v2/pokemon/ditto";
 const urlList = "https://pokeapi.co/api/v2/pokemon";
 let results = null;
 
