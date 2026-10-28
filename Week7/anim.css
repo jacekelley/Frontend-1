@@ -39,7 +39,7 @@
   border-radius: 0 0 50% 50%;
 }
 
-.yellow.rock{
+.rock{
     animation: rock 2s infinite;
 }
 
