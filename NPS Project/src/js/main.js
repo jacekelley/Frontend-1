@@ -27,3 +27,17 @@ async function init() {
 }
 
 init();
+
+function enableNavigation() {
+  const menuButton = document.querySelector("#global-nav-toggle");
+  const menu = document.querySelector(".global-nav");
+
+  menuButton.addEventListener("click", () => {
+    menu.classList.toggle("show");
+
+    const isOpen = menu.classList.contains("show");
+    menuButton.setAttribute("aria-expanded", isOpen);
+  });
+}
+
+enableNavigation();
